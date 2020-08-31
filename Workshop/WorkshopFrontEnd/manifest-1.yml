@@ -1,0 +1,6 @@
+---
+applications:
+- stack: windows
+  instances: 3
+  buildpacks: 
+    - hwc_buildpack

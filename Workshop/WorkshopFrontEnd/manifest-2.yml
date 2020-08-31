@@ -1,0 +1,9 @@
+---
+applications:
+- stack: windows
+  instances: 3
+  buildpacks:
+    - https://github.com/cloudfoundry-community/redis-session-aspnet-buildpack/releases/download/v1.0.5/Pivotal.Redis.Aspnet.Session.Buildpack-win-x64-1.0.5.zip 
+    - hwc_buildpack
+  services:
+    - session

@@ -1,0 +1,9 @@
+---
+applications:
+- stack: windows
+  instances: 1
+  buildpacks: 
+    - hwc_buildpack
+  routes:
+    - route: wsfe-step0.apps.pcfone.io/api
+    
